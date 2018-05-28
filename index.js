@@ -12,3 +12,5 @@ app.get("/api/:foo/:bar", (req, res) => res.json({
 }));
 
 module.exports = createAzureFunctionHandler(app);
+
+
